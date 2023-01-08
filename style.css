@@ -1,0 +1,123 @@
+
+        *{
+            font-family: 'Trebuchet MS';
+            font-size: 16px;
+            font-weight: bold;
+        }
+        body{
+            background: url('./33.jpg') center;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 190px;
+            /* border: 2px solid black; */
+            margin-bottom: 5%;
+            display: flex;
+        }
+        .card_tree1,.card_tree2{
+            /* border: 2px solid green; */
+            margin: 0;
+            width: 80%;
+            height: 98%;
+            overflow-x: auto;
+            display: inline-flex;
+        }
+        .jeton1,.jeton2{
+            border: 2px solid red;
+            margin: auto;
+            width: 10%;
+            height: 20%;
+            border-radius: 50%;
+        }
+        .play_zone{
+            /* border: 2px solid greenyellow; */
+            width: 30%;
+        }
+        .appr{
+            /* border: 2px solid palevioletred; */
+            width: 40%;
+            margin: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        .bank{
+            /* border: 2px solid rgb(41, 41, 27); */
+            border-radius: 10px;
+            width: 30%;
+            background: url('./00B2D882!00000000!7DBA8725A3CB3F75.DSTImage.png') no-repeat;
+            background-position: center;
+        }
+        .play_zone table,.bank table{
+            margin: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .bank table td{
+            opacity: 0;
+        }
+        .card_tree1 table,.card_tree2 table{
+            margin-right: 2%;
+            margin-left: 1%;
+            margin-top: 5%;
+        }
+        .choose{
+            /* border: 2px solid whitesmoke; */
+            position: absolute;
+            width: fit-content;
+            height: 90px;
+            margin: 50px;
+            display: none;
+        }
+        .g_word{
+            /* border: 2px solid whitesmoke; */
+            position: absolute;
+            width: fit-content;
+            height: fit-content;
+            /* margin-top: 8%; */
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
+        .g_word label{
+            font-size: 95px;
+            color: #00ff00;
+        }
+        .choose label{
+            width: 200px;
+            height: fit-content;
+            padding: 5%;
+            margin: 5px;
+        }
+        .choose label:hover{
+            filter: brightness(1.5);
+        }
+        .coeur{
+            border: 2px solid #32cd32;
+            border-radius: 10px 10px 10px 10px;
+            background: #32cd32;
+            margin-bottom: 10px;
+        }
+        .feuille{
+            border: 2px solid #00ff00;
+            border-radius: 10px 10px 10px 10px;
+            background: #00ff00;
+            margin-bottom: 10px;
+        }
+        .treffle{
+            border: 2px solid #58f5c0;
+            border-radius: 10px 10px 10px 10px;
+            background: #58f5c0;
+            margin-bottom: 10px;
+        }
+        .faux_carre{
+            border: 2px solid #00bfff;
+            border-radius: 10px 10px 10px 10px;
+            background: #00bfff;
+            margin-bottom: 10px;
+        }
