@@ -50,7 +50,7 @@
             /* border: 2px solid rgb(41, 41, 27); */
             border-radius: 10px;
             width: 30%;
-            background: url('./assets/00B2D882!00000000!7DBA8725A3CB3F75.DSTImage.png') no-repeat;
+            background: url('../assets/00B2D882!00000000!7DBA8725A3CB3F75.DSTImage.png') no-repeat;
             background-position: center;
         }
         .play_zone table,.bank table{
