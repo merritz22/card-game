@@ -44,7 +44,7 @@ function Card(number,color,content) {
     if (number == 'JOCKER') {
         center_cell.append(img);
     }else if (content == "treffle") {
-        img.setAttribute('src',"cb editz (87).jpg");
+        img.setAttribute('src',"./assets/cb editz (87).jpg");
         center_cell.append(img);
     }else{
         img = document.createElement('canvas');
@@ -85,8 +85,8 @@ function Card(number,color,content) {
 }
 
 function gen_tree_card() {
-    let j_red = new Card('JOCKER','red','cb editz (10).jpg');
-    let j_black = new Card('JOCKER','black','cb editz (35).jpg');
+    let j_red = new Card('JOCKER','red','./assets/cb editz (10).jpg');
+    let j_black = new Card('JOCKER','black','./assets/cb editz (35).jpg');
     tree.push(j_red,j_black);
     for (let i = 1; i < 14; i++) {
         let op,op1,op2,op3;

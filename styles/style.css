@@ -5,7 +5,7 @@
             font-weight: bold;
         }
         body{
-            background: url('./33.jpg') center;
+            background: url('../assets/33.jpg') center;
             background-size: cover;
             padding: 0;
             margin: 0;
@@ -50,7 +50,7 @@
             /* border: 2px solid rgb(41, 41, 27); */
             border-radius: 10px;
             width: 30%;
-            background: url('./00B2D882!00000000!7DBA8725A3CB3F75.DSTImage.png') no-repeat;
+            background: url('./assets/00B2D882!00000000!7DBA8725A3CB3F75.DSTImage.png') no-repeat;
             background-position: center;
         }
         .play_zone table,.bank table{
