@@ -19,3 +19,4 @@
 </p>
 
 # LIEN DE LA DEMO
+https://merritz22.github.io/card-game/
